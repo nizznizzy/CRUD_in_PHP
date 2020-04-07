@@ -17,8 +17,7 @@ if (isset($_POST['login']))
     if(mysqli_num_rows($query_run)>0)
     {
         $_SESSION['username']=$username;
-        header('location:home.php');
-       
+        header('location:home.php');#this is the header
     }  else {
    echo "<script type'text/javascript>alert('invalid username or password')</script>";    
     }
