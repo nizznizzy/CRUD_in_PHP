@@ -52,7 +52,7 @@ if (isset($_POST['login']))
     <input type="password" name=" password" placeholder=" password" required/>
     <input type="submit" name="login" value=" Log In" /><br><br>
    
-    <p>New to HomeElite?</p> <a href="signup.php" class="cc">Sign UP</a>
+    <p>New to HomeElite?</p> <a href="signup.php" class="cc">SIGN UP</a>
 </form>
 
 
