@@ -1,0 +1,30 @@
+body{
+    margin:0 auto;
+    padding:0px;
+    background:url("images/imginh.jpg"); 
+    background-size:200%;
+    font-family :sans-serif;
+    }
+div.signup{
+    width:320px;
+    height:580px;
+    background :rgba(0,0,0,0.40);
+    color:#fff;
+    top:50%;
+    left:20%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    padding:30px;
+        
+}
+.signup input{
+    padding:5px;
+}
+.cc{
+    color:#ff8f8f;
+    margin:0px;
+    padding:0px;
+    font-family :sans-serif;
+
+}
