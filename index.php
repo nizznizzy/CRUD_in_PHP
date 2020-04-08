@@ -21,17 +21,8 @@ if (isset($_POST['login']))
     }  else {
    echo "<script type'text/javascript>alert('invalid username or password')</script>";    
     }
-        
-    
-    
 }
-// $username=$_POST['username'];
-// $query="select * from signup WHERE username='$username'";
-// $query_run=mysqli_query($con,$query);
-// $row=mysqli_fetch_array($query_run, MYSQLI_ASSOC);
-    
-//         print_r($query_run)
-//     echo $row['password'];
+
 
 ?>
 
